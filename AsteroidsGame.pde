@@ -58,7 +58,6 @@ if (game==true){
   }
 //get bullets to appear 
 for(int i=0; i<bullet_list.size();i++){
-  //println("test");
   bullet_list.get(i).show();
   bullet_list.get(i).move();
 }
@@ -108,8 +107,7 @@ if(key == 'd' && game==true){
  }
  if(key == 'e' && game==true){
    bullet_list.add(new Bullet(triangle));
-   //println(bullet_list.size());
-   //System.out.println("test");
+  
  }
  
 
