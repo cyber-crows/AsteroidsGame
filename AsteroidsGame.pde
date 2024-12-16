@@ -45,7 +45,7 @@ if (game==true){
   if(d<30){
      big_gray.remove(i);
      i--;
-     health-=10;
+     health-=25;
   }
   }
 }
